@@ -15,11 +15,11 @@ ln --symbolic $PWD/rc $XDG_CONFIG_HOME/kak/autoload/toggle-highlighter
 ## Usage
 
 ``` kak
-map global user l ':toggle-highlighter window number_lines<ret>'
+map global user l ':toggle-highlighter window/ number-lines<ret>'
 ```
 
 ``` kak
-map global user w ':toggle-highlighter window wrap<ret>'
+map global user w ':toggle-highlighter window/ wrap<ret>'
 ```
 
 ## Commands
