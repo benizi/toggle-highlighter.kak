@@ -4,7 +4,7 @@
 
 ###### [Usage](#usage) | [Documentation](#commands) | [Contributing](CONTRIBUTING)
 
-> [Kakoune][] extension to toggle highlighters.
+> [Kakoune] extension to toggle highlighters.
 
 ## Installation
 
