@@ -6,7 +6,7 @@ define-command toggle-highlighter -params .. -docstring 'toggle-highlighter <pat
     remove-highlighter %sh{
       path=$1
       shift
-      name=$(echo "$@" | sed 's/ /<slash>/g')
+      name=$(echo "$@" | sed 's/ /_/g')
       echo "$path$name"
     }
     echo -markup {red} %arg(@)
