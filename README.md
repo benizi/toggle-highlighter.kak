@@ -8,8 +8,10 @@
 
 ## Installation
 
-``` sh
-ln --symbolic $PWD/rc $XDG_CONFIG_HOME/kak/autoload/toggle-highlighter
+### [Pathogen]
+
+``` kak
+pathogen-infect /home/user/repositories/github.com/alexherbo2/toggle-highlighter.kak
 ```
 
 ## Usage
@@ -29,3 +31,4 @@ map global user w ':toggle-highlighter window/ wrap<ret>'
 [Kakoune]: http://kakoune.org
 [IRC]: https://webchat.freenode.net?channels=kakoune
 [IRC Badge]: https://img.shields.io/badge/IRC-%23kakoune-blue.svg
+[Pathogen]: https://github.com/alexherbo2/pathogen.kak
