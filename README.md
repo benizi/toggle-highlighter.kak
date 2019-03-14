@@ -28,7 +28,7 @@ map global user w ':toggle-highlighter window/ wrap<ret>'
 
 - `toggle-highlighter` `<path>` `<type>` `[parameter]…`: Toggle highlighter
 
-[Kakoune]: http://kakoune.org
+[Kakoune]: https://kakoune.org
 [IRC]: https://webchat.freenode.net?channels=kakoune
 [IRC Badge]: https://img.shields.io/badge/IRC-%23kakoune-blue.svg
 [Pathogen]: https://github.com/alexherbo2/pathogen.kak
