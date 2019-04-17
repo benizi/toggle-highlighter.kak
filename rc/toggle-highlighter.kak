@@ -5,7 +5,7 @@ define-command toggle-highlighter -params .. -docstring 'toggle-highlighter <pat
   } catch %{
     remove-highlighter %sh{
       path=$1
-      path_last_character=$(printf "$path" | tail --bytes 1)
+      path_last_character=$(printf "$path" | tail -c 1)
       if test $path_last_character != /; then
         # Explicit name
         echo "$path"
