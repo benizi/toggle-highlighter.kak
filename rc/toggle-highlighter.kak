@@ -1,7 +1,7 @@
 define-command toggle-highlighter -params .. -docstring 'toggle-highlighter <path> <type> [parameter]…: Toggle highlighter' %{
   try %{
     add-highlighter %arg(@)
-    echo -markup {green} %arg(@)
+    echo -markup {green} %arg(1) %arg(2)
   } catch %{
     remove-highlighter %sh{
       path=$1
@@ -16,6 +16,6 @@ define-command toggle-highlighter -params .. -docstring 'toggle-highlighter <pat
         printf '%s%s' "$path" "$name"
       fi
     }
-    echo -markup {red} %arg(@)
+    echo -markup {red} %arg(1) %arg(2)
   }
 }
